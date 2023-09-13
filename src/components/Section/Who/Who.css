@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@100;400;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&family=Poppins:wght@100;400;500;600;700&display=swap");
+.who-we {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1130px;
+  margin: 120px auto;
+  font-family: "Poppins", sans-serif;
+}
+.who-we .who-we-image {
+  position: relative;
+  padding-right: 50px;
+}
+.who-we .who-we-image .dot-5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.who-we .who-we-image .image-rect {
+  padding: 50px;
+}
+.who-we .who-we-image .image-final {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.who-we .who-we-text {
+  margin: 50px 0 50px 50px;
+}
+.who-we .who-we-text h3 {
+  color: #f54c1e;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.21em;
+}
+.who-we .who-we-text h1 {
+  margin: 20px 0;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 67px;
+  letter-spacing: 0em;
+  color: #031333;
+}
+.who-we .who-we-text h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  margin: 0;
+  color: #818181;
+  padding-bottom: 30px;
+}
+.who-we .who-we-text ul {
+  list-style: none;
+  padding: 0;
+}
+.who-we .who-we-text ul li {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0em;
+  color: #989898;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .who-we {
+    flex-direction: column;
+    margin: 70px 0;
+  }
+  .who-we .who-we-image {
+    margin: 0 auto;
+  }
+  .who-we .who-we-text {
+    margin: 0 auto;
+    padding: 50px;
+  }
+}
+@media (max-width: 640px) {
+  .who-we {
+    flex-direction: column;
+    margin: 40px auto;
+  }
+  .who-we .dot-5 {
+    display: none;
+  }
+  .who-we .who-we-image {
+    padding: 20px;
+  }
+  .who-we .who-we-image .image-rect {
+    padding: 0;
+    width: 100%;
+  }
+  .who-we .who-we-image .image-final {
+    bottom: 0;
+    right: 0;
+  }
+  .who-we .who-we-text {
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .who-we .who-we-text h1 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .who-we .who-we-text h4 {
+    font-size: 11px;
+  }
+  .who-we .who-we-text ul li {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=Who.css.map */

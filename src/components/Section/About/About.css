@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@100;400;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&family=Poppins:wght@100;400;500;600;700&display=swap");
+.about {
+  padding-top: 140px;
+  max-width: 1062px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+}
+.about .about-image {
+  display: flex;
+  margin-right: 70px;
+  position: relative;
+}
+.about .about-image .dot-4 {
+  position: absolute;
+  bottom: -20px;
+  left: -35px;
+  z-index: -1;
+}
+.about .about-image .rectangle2 {
+  padding-bottom: 70px;
+  padding-right: 30px;
+}
+.about .about-image .rectangle3 {
+  padding-top: 70px;
+}
+.about .about-text {
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+}
+.about .about-text h3 {
+  color: #f54c1e;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.21em;
+}
+.about .about-text h1 {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 67px;
+  letter-spacing: 0em;
+  padding: 30px 0;
+  color: #031333;
+}
+.about .about-text h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  color: #818181;
+  padding-bottom: 30px;
+}
+.about .about-text button {
+  border: none;
+  background-color: #f54c1e;
+  color: white;
+  padding: 17px 14px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .about {
+    flex-direction: column;
+    padding-top: 70px;
+  }
+  .about .about-image {
+    margin: 0 auto;
+  }
+  .about .about-text {
+    padding: 0;
+    text-align: center;
+    padding: 70px 20px 0 20px;
+  }
+  .about .about-text h3 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 640px) {
+  .about {
+    flex-direction: column;
+    padding-top: 70px;
+  }
+  .about .dot-4 {
+    display: none;
+  }
+  .about .about-image {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .about .about-image .rectangle2 {
+    padding: 0;
+  }
+  .about .about-text {
+    text-align: center;
+  }
+  .about .about-text h1 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .about .about-text h4 {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}/*# sourceMappingURL=About.css.map */

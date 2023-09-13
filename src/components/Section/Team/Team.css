@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@100;400;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&family=Poppins:wght@100;400;500;600;700&display=swap");
+.team {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  font-family: "Poppins", sans-serif;
+}
+.team .dot-6 {
+  position: absolute;
+  bottom: -1%;
+  left: 0%;
+  z-index: -1;
+}
+.team .dot-7 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.team .team-title h3 {
+  color: #f54c1e;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0.21em;
+}
+.team .team-title h2 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 53px;
+  letter-spacing: 0em;
+  color: #031333;
+}
+.team .team-items {
+  max-width: 1170px;
+  margin: 50px auto;
+  text-align: left;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 50px;
+}
+.team .team-items .item {
+  border: 1px solid #f3f3f3;
+  border-radius: 10px;
+}
+.team .team-items .item img {
+  width: 100%;
+}
+.team .team-items .item .item-text {
+  padding: 20px;
+}
+.team .team-items .item .item-text h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #071440;
+}
+.team .team-items .item .item-text h4 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #676972;
+  padding-top: 20px;
+}
+
+@media (min-width: 640px) and (max-width: 1280px) {
+  .team {
+    padding: 10px;
+  }
+}
+@media (max-width: 640px) {
+  .team {
+    border-top: 1px solid #f3f3f3;
+  }
+  .team .dot-6 {
+    display: none;
+  }
+  .team .dot-7 {
+    display: none;
+  }
+  .team .team-items {
+    margin: 30px auto;
+    text-align: left;
+    padding: 10px;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 20px;
+  }
+  .team .team-title h3 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .team .team-title h2 {
+    margin: 0;
+    font-size: 26px;
+  }
+}/*# sourceMappingURL=Team.css.map */

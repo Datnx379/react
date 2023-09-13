@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@100;400;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&family=Poppins:wght@100;400;500;600;700&display=swap");
+header {
+  max-height: 100px;
+}
+header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  max-width: 1500px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 20px;
+  font-family: "Lato", sans-serif;
+}
+header .navbar .header-content {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+header .navbar .header-content li {
+  cursor: pointer;
+}
+header .navbar .header-content li:hover {
+  text-decoration: underline;
+}
+header .navbar .header-content li .item {
+  padding-right: 56px;
+  text-decoration: none;
+  color: black;
+}
+header .navbar .header-content li .active {
+  color: #f54c1e;
+  text-decoration: underline;
+}
+header .navbar .header-content li .item-last {
+  text-decoration: none;
+}
+header .navbar .header-content .header-button {
+  background: #f54c1e;
+  color: white;
+  line-height: 14px;
+  font-size: 14px;
+  padding: 14px 19px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin-left: 365px;
+}
+header .navbar #toggle {
+  display: none;
+}
+header .navbar .button-toggle {
+  display: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  header .navbar .header-content .header-button {
+    margin-left: 250px;
+  }
+}
+@media (max-width: 1024px) {
+  header .navbar .button-toggle {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 28px;
+    padding: 5px 10px;
+    background: white;
+    border-radius: 10px;
+    border: none;
+  }
+  header .navbar .button-toggle:hover {
+    background: #f54c1e;
+  }
+  header .navbar .header-content {
+    display: none;
+  }
+  header .navbar .header-content li .item {
+    padding: 0;
+  }
+  header .navbar #toggle:checked ~ .header-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(222, 220, 220, 0.85);
+    font-size: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 92px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+    line-height: 50px;
+  }
+  header .navbar #toggle:checked ~ .header-content li {
+    font-size: 25px;
+  }
+  header .navbar #toggle:checked ~ .header-content .header-button {
+    margin: 15px 0;
+    font-size: 25px;
+    padding: 20px 20px;
+  }
+}/*# sourceMappingURL=Header.css.map */

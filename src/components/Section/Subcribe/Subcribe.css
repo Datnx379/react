@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@100;400;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&family=Poppins:wght@100;400;500;600;700&display=swap");
+.subscribe {
+  max-width: 1264px;
+  margin: 100px auto;
+  background: #f3f3f3;
+}
+.subscribe .subscribe-inner {
+  padding: 70px 234px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+.subscribe .subscribe-inner .subscribe-text {
+  padding-right: 100px;
+  border-right: 1px solid #031333;
+}
+.subscribe .subscribe-inner .subscribe-text h3 {
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0em;
+}
+.subscribe .subscribe-inner .subscribe-text h5 {
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  font-family: "Nunito Sans", sans-serif;
+}
+.subscribe .subscribe-inner .subscribe-button {
+  color: white;
+  background-color: #f54c1e;
+  border: none;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  padding: 16px 30px;
+  font-family: "Lato", sans-serif;
+}
+
+@media (min-width: 1024) and (max-width: 1280px) {
+  .subscribe {
+    margin: 50px auto;
+  }
+  .subscribe .subscribe-inner {
+    padding: 70px 150px;
+  }
+  .subscribe .subscribe-inner .subscribe-text {
+    padding-right: 100px;
+  }
+  .subscribe .subscribe-inner .subscribe-text h3 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .subscribe .subscribe-inner .subscribe-text h5 {
+    font-size: 12px;
+    padding: 0;
+  }
+  .subscribe .subscribe-inner .subscribe-button {
+    font-size: 18px;
+    padding: 15px 25px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .subscribe {
+    margin: 50px auto;
+  }
+  .subscribe .subscribe-inner {
+    padding: 60px 100px;
+  }
+  .subscribe .subscribe-inner .subscribe-text {
+    padding-right: 80px;
+  }
+  .subscribe .subscribe-inner .subscribe-text h3 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .subscribe .subscribe-inner .subscribe-text h5 {
+    font-size: 10px;
+    padding: 0;
+  }
+  .subscribe .subscribe-inner .subscribe-button {
+    font-size: 18px;
+    padding: 15px 25px;
+  }
+}
+@media (max-width: 640px) {
+  .subscribe {
+    margin: 40px auto;
+  }
+  .subscribe .subscribe-inner {
+    padding: 20px 30px;
+  }
+  .subscribe .subscribe-inner .subscribe-text {
+    padding: 0;
+  }
+  .subscribe .subscribe-inner .subscribe-text h3 {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .subscribe .subscribe-inner .subscribe-text h5 {
+    font-size: 10px;
+    line-height: 15px;
+    padding: 0;
+  }
+  .subscribe .subscribe-inner .subscribe-button {
+    font-size: 12px;
+    padding: 10px 20px;
+    margin-left: 20px;
+  }
+}/*# sourceMappingURL=Subscribe.css.map */
